@@ -42,7 +42,7 @@ int zAng = map(AcZ,minVal,maxVal,-90,90);
 x= RAD_TO_DEG * (atan2(-yAng, -zAng)+PI);
 y= RAD_TO_DEG * (atan2(-xAng, -zAng)+PI);
 z= RAD_TO_DEG * (atan2(-yAng, -xAng)+PI);
-valorz = ((3.1415 * 270,51 * z)/180);
+valorz = ((PI * 270,51 * z)/180);
 
 lcd.setCursor(0,0);
   lcd.print("cambagem");
